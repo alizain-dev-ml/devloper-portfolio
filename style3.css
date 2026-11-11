@@ -188,6 +188,38 @@ body{
 .nony:hover{
     font-weight: bolder;
 }
+@media (max-width: 768px) {
+    .icons {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .icons img {
+        width: 65px;
+        height: 65px;
+        margin: 10px;
+    }
+
+    .navigator {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .headofall {
+        font-size: 150%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    #img2 {
+        max-width: 80%;
+        height: auto;
+    }
+}
 
 
 
