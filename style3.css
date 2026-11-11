@@ -1,0 +1,198 @@
+
+
+body{
+    background-color: black;
+}
+.img1{
+    display: flex;
+
+  float: right;
+  border: solid;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  animation-name: boxi;
+  animation-duration: 5s;
+  
+  
+}
+
+.list1 {
+
+    color: wheat;
+    animation-name: glow;
+      
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    float: left;
+
+}
+.list1 li{
+    color: rgb(123, 128, 235);
+    font-size: 150%;
+    font-style: italic;
+}
+
+
+@keyframes glow {
+    from{
+        color: red;
+    }
+    to{
+        color: blue;
+    }
+    
+}
+.centre{
+    display: flex;
+    flex-direction: column;
+    float: right;
+
+}
+.list1.li{
+    font-size: 50px;
+}
+.navigator{
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    text-align: center;
+    margin: 0px;
+}
+.navigator a {
+    color: white;
+    background-color: black;
+    display: ruby-text;
+    
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+
+    box-shadow:5px 5px 100px white ;
+  
+
+    
+}
+.navigator a:hover{
+    color: yellow;
+    box-shadow: 10px 10px 200px rgb(248, 168, 19);
+}
+.navigator a:active{
+    color: rgb(225, 13, 13);
+}
+
+.cope{
+    text-align: center;
+    transform: translatey(200px);
+    font-size: 30px;
+}
+
+.cope .head {
+    display: inline;
+    color: rgb(55, 156, 165);
+
+   text-shadow: 10px 10px 200px  rgb(241, 66, 95);
+   
+
+}
+.cope .highlight-neon{
+    color: aqua;
+    animation-name: gope;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-style:italic ;
+}
+
+@keyframes gope {
+    to{
+        text-shadow: 0px 0px 5px rgb(143, 38, 240);
+        color: aqua;
+         text-shadow: 0px 0px 5px rgb(104, 8, 194);
+         color: rgb(22, 154, 154);
+          text-shadow: 0px 0px 5px blueviolet;
+          color: rgb(14, 83, 83);
+           text-shadow: 0px 0px 5px rgb(21, 53, 102);
+           color: rgb(10, 84, 84);
+            text-shadow: 0px 0px 5px blueviolet;
+            color: rgb(9, 113, 113);
+             text-shadow: 0px 0px 5px rgb(18, 38, 172);
+             color: rgb(5, 56, 56);
+    }
+    
+}
+@keyframes boxi {
+0%{
+    transform: translatey(0);
+}
+
+15%{
+    transform: translatey(-100px);
+}
+
+30%{
+    transform: translatey(0);
+}
+
+45%{
+    transform: translatey(-75px);
+}
+60%{
+    transform: translatey(0);
+}
+75%{
+    transform: translatey(-50px);
+}
+90%{
+    transform: translatey(0);
+}
+
+100%{
+    transform: translatey(0);
+}
+
+    
+}
+.lines{
+    background-color: rgb(40, 40, 42);
+    position: fixed;
+    bottom: 0;
+    left: 20;
+    width: 100%; 
+    z-index: 1000; 
+   border: solid rgb(150, 221, 169);
+   color: rgb(65, 115, 115);
+ box-shadow: 5px 5px 50px rgb(39, 185, 185);
+   
+}
+.nony{
+    animation-name:glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.div2{
+    display: flex;
+    border: solid rgb(128, 214, 250);
+    border-radius:50%;
+    float: left;
+
+    animation-name: boxi;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+   
+    
+}
+.div2:hover:active{
+    display: block;
+    width: 10%;
+    height: 10%;
+}
+.nony:hover{
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+

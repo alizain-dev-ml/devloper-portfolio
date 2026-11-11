@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+.d img{
+    display: flex;
+    display: block;
+    border-radius: 50%;
+    float: left;
+    transform: translatey(50px);
+    box-shadow: 5px 5px 20px whitesmoke;
+}
+header{
+ 
+    color: rgb(248, 250, 251);
+    text-align: center;
+    background-color: rgb(76, 181, 234);
+    display: block;
+    width: 50x;
+    height: 50px;
+    font: size 100px;
+}
+p{
+    color: wheat;
+}
+h1{
+    color: white;
+}
+.list{
+    color: wheat;
+    align-items: center;
+
+}
+.dope img{
+    float: left;
+    height: auto;
+    width: 100px;
+    border-radius: 30%;
+
+    box-shadow: 5px 5px 20px cyan;
+    align-items: center;
+    border:solid cyan;
+    margin: 0px;
+    animation-name: moves;
+    animation-duration: 1s;
+    
+    
+}
+.dope{
+    align-content: center;
+    margin:0px;
+}
+@keyframes moves {
+    from {
+        transform: translateX(100%);
+    }
+}
+
+.navigator{
+    background-color: rgb(48, 45, 45);
+    height: 30px;
+    text-align: center;
+    margin: 0px;
+}
+.navigator a {
+    color: white;
+    background-color: black;
+    display: block;
+    
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.dope img :hover {
+    transform: translatey(-15px);
+}
+.navigator{
+    background-color: black;
+}
+.navigator a:hover{
+    box-shadow: 30px 30px 50px rgb(109, 233, 233);
+    color: rgb(255, 255, 85);
+    
+
+}
+.navigator a:active{
+    color: rgb(236, 30, 30);
+}
+

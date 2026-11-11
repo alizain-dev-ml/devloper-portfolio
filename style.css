@@ -1,0 +1,160 @@
+header{
+
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(116, 213, 238);
+    display: block;
+    width: 50x;
+    height: 50px;
+    font: size 100px;
+    
+}
+body{
+    background-color: black;
+}
+.navigator{
+    background-color: rgb(48, 45, 45);
+    height: 30px;
+    text-align: center;
+    margin: 0px;
+}
+.navigator a {
+    color: white;
+    background-color: black;
+    display: block;
+    
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+div{
+    float: left;
+   
+
+}
+#img2{
+    border: solid rgb(112, 194, 253);
+    border-radius: 50px;
+    box-shadow: 5px 5px 1000px rgb(36, 107, 161);
+
+
+}
+p{
+    color:wheat;
+    font-size: 100%;
+    font-width: 300px;
+    
+   
+
+}
+p::selection{
+    background-color: rgb(174, 242, 242);
+    color:rgb(90, 239, 239);
+}
+h1::first-letter{
+    font-size:xx-large;
+    font-style: italic;
+}
+h1{
+    color: rgb(73, 184, 221);
+    text-align: left;
+    margin: auto;
+    font-style: inherit;
+    
+}
+.head{
+    text-decoration-line: underline;
+    text-decoration-style:wavy ;
+    text-decoration-color: aqua;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    float:none;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+       justify-content: center;
+       gap: 250px;
+     animation-name: moveimg;
+     animation-duration: 3s;
+
+
+}
+.icons img {
+
+    width: 100px;
+    height: 100px;
+     transform: translatey(50px);
+     display: flex;
+     gap: 200px;
+     margin: 20px;
+     border-radius: 20px;
+    background-image: none;
+
+    box-shadow: 5px 5px 20px whitesmoke;
+    
+
+
+}
+
+
+@keyframes moveimg {
+    from{transform:translatex(100%)}
+    
+}
+h2{
+    color: cyan;
+   
+    background-color: rgb(51, 50, 50);
+    text-align: center;
+}
+
+.logo{
+    float: left;
+  
+}
+.logo img{
+    width: 100px;
+    height: auto;
+    display: flex;
+    border-radius: 5cqmin;
+    box-shadow: 5px 5px 20px cyan ,5px 5px 20px rgb(92, 14, 226);
+    
+}
+.icons img:active{
+     transform: translatey(-15px);
+    cursor: pointer;
+
+}
+.imo:hover{
+    transform: translatey(-2px);
+}
+.div1{
+    border :solid black;
+}
+
+.headofall{
+    font-size: 250%;
+    color: black;
+}
+.navigator{
+    background-color: black;
+
+}
+.navigator a:hover{
+    box-shadow: 30px 30px 100px rgb(24, 186, 207) ;
+    color: rgb(246, 246, 77);
+   
+}
+.navigator a:active{
+    color:  red;
+}
+h2{
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+
